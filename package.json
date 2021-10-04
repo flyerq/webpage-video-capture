@@ -1,0 +1,41 @@
+{
+  "name": "webpage-video-capture",
+  "version": "0.1.2",
+  "description": "Capture webpage animation and generate video",
+  "homepage": "https://github.com/flyerq/webpage-video-capture#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flyerq/webpage-video-capture.git"
+  },
+  "keywords": [
+    "webpage",
+    "video",
+    "capture",
+    "recorder"
+  ],
+  "author": "flyer <flyer@flyerq.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "cli.js",
+    "index.js",
+    "utils.js"
+  ],
+  "bin": {
+    "webpage-video-capture": "cli.js"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "node test/index.js"
+  },
+  "dependencies": {
+    "bytes": "^3.1.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "lodash": "^4.17.15",
+    "timecut": "^0.1.0"
+  }
+}
